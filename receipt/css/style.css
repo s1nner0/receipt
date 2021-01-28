@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+:root {
+    --black01: rgba(0, 0, 0, 0.74);
+    --black02: rgba(0, 0, 0, 0.521);
+    --black03: ;
+}
+
+body {
+    background-image: url("../img/pic03.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-size: 2.1vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: var(--black01);
+    margin: 5vh 15vh 5vh 15vh;
+}
+
+.blockh1 {
+    background-image: url("../img/pic03.jpg");
+    background-position-y: center;
+}
+
+h1 {
+    display: flex;
+    background-color: var(--black02);
+    padding: 5px 10px 10px 45px;
+}
+
+.ph1 {
+    font-size: 5vh;
+    color: white;
+}
+
+img {
+    padding: 20px;
+    padding: 20px;
+    border-radius: 120%;
+}
+
+.ingredients, .summary, .instructions {
+    padding: 20px;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.footerps {
+    float: right;
+    margin: 20px;
+}
+.footer {
+    height: 150px;
+    background-color: var(--black02);
+}
